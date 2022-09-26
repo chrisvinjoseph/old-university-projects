@@ -28,11 +28,12 @@ They would be used like so: (^ denotes exponent)
 				N -> N value generated
 
 Important notes:
-1 - This does actually work. It has been tested and it CAN encrypt and decrypt messages. However, the ability to do
-so, has not been added into the program (since it wasn't worth any marks) and since the generation of primes has not 
-been optimized (see below); this program can only practically generate keys that are well below the minimum 2048 bits 
-of RSA. This means that this program should never be used for any real security purpose.
-2 - The method used to test primality in this program is wildly inefficient and was chosen solely because 
-it's optimization was not worth any marks. I may at some point do a similar project to this one where I use
-a Miller-Rabin primality test instead as well as add the option to encrypt and decrypt files from within the
-program.
+	1 - This does actually work. It has been tested and it CAN encrypt and decrypt messages. However, the ability to do
+	so, has not been added into the program (since it wasn't worth any marks) and since the generation of primes has not 
+	been optimized (see below); this program can only practically generate keys that are well below the minimum 2048 bits 
+	of RSA. This means that this program should never be used for any real security purpose.
+	
+	2 - The method used to test primality in this program is wildly inefficient and was chosen solely because 
+	it's optimization was not worth any marks. I may at some point do a similar project to this one where I use
+	a Miller-Rabin primality test instead as well as add the option to encrypt and decrypt files from within the
+	program.
